@@ -1,10 +1,124 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Know Korea</title>
-      <meta http-equiv = "refresh" content = "3; url = https://ConhecaCoreia.GitHub.io" />
-   </head>
-   <body>
-      <p>Know Korea!</br></br>Under construction! Redirecting to the portuguese version of site: ConhecaCoreia.GitHub.io</p>
-   </body>
+<html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://KnowKorea.github.io/" />
+    <meta property="og:title" content="Know Korea" />
+    <meta property="og:description" content="Know People's Korea !
+    The most democratic country in the world!!">
+    <meta property="og:image" content="https://raw.githubusercontent.com/KnowKorea/KnowKorea.github.io/master/images/bandeira.png" />
+
+    <title>Know Korea</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/sites.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+    
+    <div class="title" >Know Korea</div>
+
+    <div class="menu">
+        <i class="fa fa-home"   onclick="toggle_page(1)"> <span>Home</span></i>
+        <i class="fa fa-server" onclick="toggle_page(2)"> <span>Websites List</span></i>
+        <i class="fa fa-server" onclick="toggle_page(3)"> <span>PDF's list</span></i>
+        <i class="fa fa-users"  onclick="toggle_page(4)"> <span>About</span></i>
+    </div>
+
+    <div class="content">
+        <div class="home">
+            <div class="home-image">
+                <i onclick="previousfolder()" class="fa fa-backward icone"></i>
+                <i onclick="previousimage()" class="fa fa-arrow-circle-left icone"></i>
+                <a class="home-image-href" target="_blank" href="/images/home/0/0.jpg">
+                    <img class="home-image-src"  src="/images/home/0/0.jpg" alt="">
+                </a>
+                <i onclick="nextimage()" class="fa fa-arrow-circle-right icone"></i>
+                <i onclick="nextfolder()" class="fa fa-forward icone"></i>
+            </div>
+            <div class="home-video">
+                <i onclick="previousvideo()" class="fa fa-arrow-circle-left icone"></i>
+                <iframe class="home-video-src" src="https://www.youtube.com/embed/gw2x8ZXj6VA"
+                frameborder="0" allowfullscreen ></iframe>
+                <i onclick="nextvideo()" class="fa fa-arrow-circle-right icone"></i>
+            </div>
+            <div class="home-post">
+                <i onclick="previouspost()" class="fa fa-arrow-circle-left icone"></i>
+                <div class="home-post-container">
+                    <h3 class="post-title"></h3>
+                    <div class="post-image-container">
+                        <i onclick="previousPostImage()" class="fa fa-arrow-circle-left icone"></i>
+                        <a href="" class="post-image-href" target="_blank">
+                            <img class="post-image" alt="">
+                        </a>
+                        <i onclick="nextPostImage()" class="fa fa-arrow-circle-right icone"></i>
+                    </div>
+                    <p class="post-content"></p>
+                    <a target="_blank" class="post-link">Link to original publication.</a>
+                </div>
+                <i onclick="nextpost()" class="fa fa-arrow-circle-right icone"></i>
+            </div>        
+        </div>
+
+        <div class="about">
+            This site is maintained by the community. To contribute, visit: <a href="https://github.com/KnowKorea">github.com/KnowKorea</a>
+            
+            <hr style="width: 50%;">
+
+            Created by: <a href="https://Campagnani.GitHub.io">Thalles Campagnani</a>
+        </div>
+
+        <div class="sites" id="sites">
+            <div class="category2" onclick="toggle_page(5)"> Official Sites</div>
+            <div class="category2" onclick="toggle_page(6)"> Sites about Korea</div>
+            <div class="category2" onclick="toggle_page(7)"> Tourism Sites</div>
+        </div>
+
+        <div class="revistas" id="sites">
+            <div class="category2" onclick="toggle_page(8)"> Newspaper THE PYONGANG TIMES</div>
+            <div class="category2" onclick="toggle_page(9)"> Pictorial DPR-KOREA</div>
+            <div class="category2" onclick="toggle_page(10)"> Magazine KOREA TODAY</div>
+            <div class="category2" onclick="toggle_page(11)"> Magazine MOUNTAIN KUMSU</div>
+            <div class="category2" onclick="toggle_page(12)"> Magazine FOREIGN TRADE</div>
+            <div class="category2" onclick="toggle_page(13)"> Book UNDERSTANDING KOREA</div>
+        </div>
+
+        <div id="sites" class="sitesOficial" ></div>
+        <div id="sites" class="sitesSobre" ></div>
+        <div id="sites" class="sitesTurismo" ></div>
+        <div id="sites" class="revistasTimes" ></div>
+        <div id="sites" class="revistasCoreia" ></div>
+        <div id="sites" class="revistasHoje" ></div>
+        <div id="sites" class="revistasKumsu" ></div>
+        <div id="sites" class="revistasComercio" ></div>
+        <div id="sites" class="revistasEntendendo" ></div>
+    </div>
+
+    <script src="js/sites/turismo.js"></script>
+    <script src="js/sites/oficial.js"></script>
+    <script src="js/sites/sobre.js"></script>
+    <script src="js/revistas/times.js"></script>
+    <script src="js/revistas/coreia.js"></script>
+    <script src="js/revistas/hoje.js"></script>
+    <script src="js/revistas/kumsu.js"></script>
+    <script src="js/revistas/comercio.js"></script>
+    <script src="js/revistas/entendendo.js"></script>
+    <script src="js/home/image.js"></script>
+    <script src="js/home/video.js"></script>
+    <script src="js/home/posts/eleicoes.js"></script>
+    <script src="js/home/posts/lgbt.js"></script>
+    <script src="js/home/posts/mulher.js"></script>
+    <script src="js/home/posts/corona.js"></script>
+    <script src="js/home/post.js"></script>
+    <script src="js/index.js"></script>
+
+    </body>
 </html>
