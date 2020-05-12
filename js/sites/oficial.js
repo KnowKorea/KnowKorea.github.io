@@ -275,6 +275,12 @@ var oficial =
         "texto": ""
     },
     {
+        "nome": "Ministray of Public Health of the DPRK",
+        "link": "http://www.moph.gov.kp/en/",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
         "nome": "Portal DPRK",
         "link": "http://dprkportal.kp",
         "figura": "bandeira.png",
