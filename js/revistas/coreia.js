@@ -31,7 +31,7 @@ var coreia = [
         "link": "https://knowkorea.github.io/PDF/KOREA-2020-9.pdf",
         "figura": "bandeira.png",
         "texto": ""
-    },
+    },*/
     {
         "nome": "DPR of KOREA - August of 2020",
         "link": "https://knowkorea.github.io/PDF/KOREA-2020-8.pdf",
@@ -43,7 +43,7 @@ var coreia = [
         "link": "https://knowkorea.github.io/PDF/KOREA-2020-7.pdf",
         "figura": "bandeira.png",
         "texto": ""
-    },*/
+    },
     {
         "nome": "DPR of KOREA - June of 2020",
         "link": "https://knowkorea.github.io/PDF/KOREA-2020-6.pdf",
