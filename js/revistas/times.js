@@ -1,6 +1,114 @@
 var times = [
     'List editions of weekly newspaper: "THE PYONGYANG TIMES".',
     '2020',
+    /*{
+        "nome": "The Pyongyang Times - 53° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-53.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },*/
+    {
+        "nome": "The Pyongyang Times - 52° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-52.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 51° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-51.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 50° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-50.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 49° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-49.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 48° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-48.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 47° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-47.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 46° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-46.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 45° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-45.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 44° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-44.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 43° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-43.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 42° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-42.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 41° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-41.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 40° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-40.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 39° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-39.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 38° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-38.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 37° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-37.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
+    {
+        "nome": "The Pyongyang Times - 36° Week of 2020",
+        "link": "https://knowkorea.github.io/PDF/TIMES-2020-36.pdf",
+        "figura": "bandeira.png",
+        "texto": ""
+    },
     {
         "nome": "The Pyongyang Times - 35° Week of 2020",
         "link": "https://knowkorea.github.io/PDF/TIMES-2020-35.pdf",

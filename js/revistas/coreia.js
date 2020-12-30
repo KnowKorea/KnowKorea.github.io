@@ -7,8 +7,7 @@ var coreia = [
         "figura": "bandeira.png",
         "texto": ""
     },
-    /*Uncomment when uploading more magazines*/
-    /*{
+    {
         "nome": "DPR of KOREA - December de 2020",
         "link": "https://knowkorea.github.io/PDF/KOREA-2020-12.pdf",
         "figura": "bandeira.png",
@@ -31,7 +30,7 @@ var coreia = [
         "link": "https://knowkorea.github.io/PDF/KOREA-2020-9.pdf",
         "figura": "bandeira.png",
         "texto": ""
-    },*/
+    },
     {
         "nome": "DPR of KOREA - August of 2020",
         "link": "https://knowkorea.github.io/PDF/KOREA-2020-8.pdf",

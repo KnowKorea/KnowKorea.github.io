@@ -2,24 +2,30 @@ var comercio =
 [
     'List of editions of the magazine: FORING TRADE OF DPRK',
     '2020',
-    /*{
+    {
         "nome": "FORING TRADE - 4° Quarter of 2020",
         "link": "https://knowkorea.github.io/PDF/TRADE-2020-4.pdf",
         "figura": "bandeira.png",
         "texto": ""
-    },*/
+    },
     {
         "nome": "FORING TRADE - 3° Quarter of 2020",
         "link": "https://knowkorea.github.io/PDF/TRADE-2020-3.pdf",
         "figura": "bandeira.png",
         "texto": ""
-    },/*
+    },
     {
         "nome": "FORING TRADE - 2° Quarter of 2020",
-        "link": "https://knowkorea.github.io/PDF/TRADE-2020-2.pdf",
+        "link": "https://knowkorea.github.io/PDF/TRADE-2020-2-Spanish.pdf",
         "figura": "bandeira.png",
-        "texto": ""
-    },*/
+        "texto": "Spanish version (English version has not been released)."
+    },
+    {
+        "nome": "FORING TRADE - 2° Quarter of 2020",
+        "link": "https://knowkorea.github.io/PDF/TRADE-2020-2-French.pdf",
+        "figura": "bandeira.png",
+        "texto": "French version (English version has not been released)."
+    },
     {
         "nome": "FORING TRADE - 1° Quarter of 2020",
         "link": "https://knowkorea.github.io/PDF/TRADE-2020-1.pdf",
